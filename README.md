@@ -9,7 +9,7 @@ serial port monitor. Then the web can be accessed using its IP address.
 The ADC pin can be connected to a detector that has an output voltage, and convert 
 the acquired voltage into the corresponding physical unit.
 For example, if ADC#1 is connected to a temperature sensor, with voltage to temperature
-relation of `10mV/\circ C`, the corresponding function `handleADC_1()` can be changed for 
+relation of `10mV/deg`, the corresponding function `handleADC_1()` can be changed for 
 to output the corresponding temperature value.
 
 ## Materials
@@ -53,7 +53,7 @@ HTTP server started
 ```
 
 Then the web can be accessed using `192.168.3.34`. In the following screenshot, ADC#5 is connected to a 
-temperature sensor, which measures about `$30.1 deg` with a conversion factor of `$10mV/deg`.
+temperature sensor, which measures about `30.1 deg` with a conversion factor of `10mV/deg`.
 
 <img src="./ESP32_ADC_WebServer.png" width="400"/>
 
