@@ -23,7 +23,7 @@ to output the corresponding temperature value.
 
 ## 0. install libraries
 
-Arduino IED is used, and the installation can be found on [Arduino website](https://docs.arduino.cc/software/ide-v1).
+Arduino IED is used, and its installation can be found on [Arduino website](https://docs.arduino.cc/software/ide-v1).
 ESP32 board is not supported by default in Arduino IDE, it can be installed by referring to 
 '[Installing the ESP32 Board in Arduino IDE](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)'.
 
@@ -58,7 +58,7 @@ temperature sensor, which measures about `30.1 deg` with a conversion factor of 
 <img src="./ESP32_ADC_WebServer.png" width="400"/>
 
 Note:
-The ADC2 pins can not be used as ADC, it's likely due to some conflict with `WIFI.h` setups (wireless uses all the 
+The ADC2 pins can not be used as ADC in this case, it's likely due to some conflict with `WIFI.h` setups (wireless uses all the 
 ADC2 pins). 
 
 ## References
